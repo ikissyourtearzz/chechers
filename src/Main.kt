@@ -28,7 +28,7 @@ fun printCheckersBoard() {
     }
 
     // печать заголовка
-    println("  A  B  C   D  E   F  G  H") //
+    println("  A  B  C   D  E   F  G  H") ///
 
     for (row in 0 until 8) { //печать доски
         print("${8 - row} ")
